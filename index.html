@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Food Fiesta</title>
+    <!--Let browser know website is optimized for mobile-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <!--Import css-->
+     <link type="text/css" rel="stylesheet" href="css/ffstylesheet.css">
+     <link type="text/css" rel="stylesheet" href="css/materialize_v1.min.css">
+     <link type="text/css" rel="stylesheet" href="css/style.css">
+     <!-- Import icons.woff2 -->
+     <link rel="stylesheet" href="icons/icon.woff2">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- Import Js -->
+          <script type="text/javascript" src="js/jquery.js"></script>
+     <script type="text/javascript" src="js/jquery_migrate.js"></script>
+     <script type="text/javascript" src="js/javascript.js"></script>
+     <script type="text/javascript" src="js/mobilenavbar.js"></script>
+     <script type="text/javascript" src="js/commonJs/helper.js"></script>
+     <script type="text/javascript" src="js/materialize_v1.min.js"></script>
+  </head>
+  <!--Body Start-->
+  <body class="scene1" background="images/California_ChickenSaladWrap_with_2_Cheese_Cheddar_web.jpg">
+    <main id="main">
+      <div class="row">
+        <!--Side Box-->
+        <div class="grey darken-4 fiesta_box col s12 m3 l4">
+          <div class="row">
+            <div class="col s2"></div>
+            <!--Logo-->
+            <div class="col s8">
+              <a href="index.html"><img src="images/logos/Logo 1.png" class="img-logo" alt=""></a>
+            </div>
+            <!--Logo end-->
+            <!--Mobile Navbar start-->
+            <div class="col s2">
+              <span style="color:white; font-size:30px; padding:4% 10% 0 0;cursor:pointer" class="hide-on-med-and-up" onclick="openNav()">&#9776;</span>
+              <div id="mySidenav" class="sidenav1">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a class="fiesta-style" href="index.html">Home</a>
+                <a class="fiesta-style" href="#">Restaurant</a>
+                <a class="fiesta-style" href="#">Menu</a>
+                <a class="fiesta-style" href="#">Contact</a>
+              </div>
+            </div>
+            <!--Mobile Navbar Ends-->
+          </div>
+          <hr class="sep">
+          <br>
+          <!--Welcome text-->
+          <div class="white-text side-content">
+          <!--Heading-->
+          <h5>WELCOME!</h5>
+          <br>
+          <!--Welcome Para start-->
+          <p class="para1">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>
+          <!--Welcome Para Ends-->
+          </div>
+          <br>
+          <!--Reservaion Start-->
+          <div class="white-text side-content">
+            <h5>Reservation</h5>
+          </div>
+          <br>
+          <form class="Booking" action="index.html" method="post">
+            <div class="white-text lighten">
+              <input type="date" class="grey darken-4 fiesta-ipt browser-default white-text" placeholder="Date" name="Date" value="Date">
+            </div>
+            <div class="grey darken-4">
+              <input type="time" class="grey darken-4 fiesta-ipt white-text browser-default lighten" name="Time" placeholder="Time" value="Time">
+            </div>
+            <div class="grey darken-4 input-field col s12">
+              <select class="grey darken-4 white-text browser-default">
+                <option value="" disabled selected>Party Size</option>
+                <option value="1">1 Person</option>
+                <option value="2">2 Person</option>
+                <option value="3">3 Person</option>
+                <option value="4">4 Person</option>
+                <option value="5">5 Person</option>
+                <option value="6">6 Person</option>
+              </select>
+            </div>
+            <button type="Submit" class="fiesta-btn" name="button">Book Now</button>
+          </form>
+          <!--Reseration Ends-->
+          <br>
+          <br>
+          <hr class="sep">
+          <!--Footer Start-->
+          <footer class="fiesta-footer">
+            <p class="footer-para1 white-text">500 Terry Francois Street SF , CA  94158 Open everyday
+              2pm to 12am</p>
+              <br>
+              <div class="row">
+                <div class="col s1"></div>
+                <a class="col s2" href="#"><i class="white-text fa fa-facebook-f fiesta-font" ></i></a>
+                <a class="col s2" href="#"><i class="white-text fa fa-foursquare fiesta-font" ></i></a>
+                <a class="col s2" href="#"><i class="white-text fa fa-twitter fiesta-font" ></i></a>
+                <a class="col s2" href="#"><i class="white-text fa fa-instagram fiesta-font" ></i></a>
+              </div>
+          </footer>
+          <!--footer Ends-->
+          <!--Side Box Ends-->
+        </div>
+        <!--Desktop Menu Start-->
+        <div class="col s12 m9 l8">
+          <div class="fiesta-navbar hide-on-small-only">
+            <ul>
+              <li class="fiesta-nav"><a class="fiesta-style" href="index.html">Home</a></li>
+              <li class="fiesta-nav"><a class="fiesta-style" href="#Restaurant.html">Restaurant</a></li>
+              <li class="fiesta-nav"><a class="fiesta-style" href="#Menu.html">Menu</a></li>
+              <li class="fiesta-nav"><a class="fiesta-style" href="#Contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--Desktop Menu Ends-->
+      </div>
+    </main>
+    <!--Body Ends-->
+  </body>
+</html>
